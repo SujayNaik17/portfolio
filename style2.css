@@ -1,0 +1,202 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(72, 83, 87);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-size: 200%;
+    color: yellow;
+    z-index: 1;
+    
+  }
+  
+  .sidebar a {
+    padding-left: 15%;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sidebar div {
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+  }
+  
+  .img {
+    top: 4%;
+    width: 10%;
+    left: auto;
+    height: 10%;
+    object-fit: contain;
+  
+  
+  }
+  
+  .content {
+    margin-left: 50px;
+    padding: 15px;
+  }
+  
+  .section {
+    display: content;
+  }
+  
+  .section.active {
+    display: block;
+  }
+  
+  body {
+    background-color: rgb(3, 3, 3);
+    
+  }
+  
+  #news {
+    background-color: black;
+  }
+  
+  #prof {
+    width: 85%;
+  }
+  
+  .icon {
+    right: 50%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    padding-top: 2%;
+  }
+  
+  .bio {
+    padding: 10px;
+  
+    text-align: left;
+    font-size: 180%;
+  }
+  
+  .bio b {
+    color: yellow;
+    font-size: 140%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .bio p {
+    color: yellow;
+    align-items: center;
+    font-family: lucida console;
+  }
+  
+  .bio svg {
+    width: 100px;
+  }
+  
+  #project {
+    background-color: black;
+  }
+  
+  #card {
+    z-index: auto;
+  }
+  
+  #project h1 {
+    color: white;
+    font-family: lucida console;
+    font-size: 300%;
+  }
+  
+  #projp {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #project{
+    padding-top: 25%;
+    
+  }
+  
+  .class-text {
+    color: black;
+  
+  }
+  
+  #skills h1 {
+    color: white;
+    font-family: lucida console;
+    font-size: 300%;
+  }
+  
+  #skills p {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  #skills{
+    padding-top: 25%;
+    
+  }
+  
+  .slider {
+    width: auto;
+    color: yellow;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  #about p {
+    color: yellow;
+    font: lucida console;
+    font-size: large;
+  }
+  
+  #about b {
+    color: white;
+    font-size: larger;
+  }
+  
+  #about {
+    width: auto;
+    padding-top: 25%;
+  }
+  #about h1{
+    font-size: 300%;
+  }
+  
+  #linkedin {
+    width: 8%;
+  }
+  #gmail{
+    width: 10%;
+    
+  }
+  /*  
+  @media all and (width: 450px) {
+    .section {
+      display: contents !important;
+    }
+  }*/
+  
+  
